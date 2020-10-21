@@ -6,14 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>My Node App</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="container" style="background: aliceblue;">
   <h1>My Node App</h1>
   <form method="post" action="/item/add">
     <label for="name">Name</label>
-    <input type="text" name="name">
-    <input type="submit" value="Add">
+    <input class="form-control mb-3" type="text" name="name">
+    <input class="btn btn-success mb-3" type="submit" value="Add">
   </form>
   <h4>Items:</h4>
   <ul>
