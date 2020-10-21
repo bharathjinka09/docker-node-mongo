@@ -8,7 +8,7 @@
 
 ```bash
 # Run in Docker
-docker-compose up
+docker-compose up --build
 # use -d flag to run in background
 
 # Tear down
